@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<body>
+<header>
+<a href="index.html"> Acceuil </a>
+<a href="projets.html"> Projets </a>
+<a href="services.html">Services </a>
+<a href="inscription.html"> Inscription </a>
+<hr>
+<img src="img.jpg" width="100%" height="500px" >
+<hr>
+</header>
+<h2>Inscription</h2>
+<form action="#" method="post">
+<table>
+<tr>
+<td>
+<label for="f_n">First Name <span>*</span></label>
+</td>
+<td>
+<input
+type="text"
+id="f_n"
+name="f_n"
+minlength="3"
+required
+/>
+</td>
+</tr>
+<tr>
+<td>
+<label for="l_n">Last Name</label></td>
+<td>
+<input
+type="text"
+id="l_n"
+name="l_n"
+minlength="3"
+/>
+</td>
+</tr>
+<tr>
+<td><label for="ad">Address</label></td>
+<td>
+<textarea
+name="ad"
+id="ad"
+cols="20"
+rows="7"
+></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<label for="p_n"
+>Phone Number <span>*</span></label>
+</td>
+<td>
+<input
+type="number"
+id="p_n"
+name="p_n"
+minlength="8"
+required
+/>
+</td>
+</tr>
+<tr>
+<td>
+<label for="dob">Date of birth</label></td>
+<td>
+<input type="date" id="dob" name="dob" />
+</td>
+</tr>
+<tr>
+<td>
+<label for="email">Email<span>*</span></label>
+</td>
+<td>
+<input
+type="email"
+ name="email"
+id="email"
+required
+/>
+</td>
+</tr>
+<tr>
+<td>
+<label for="pd">Password <span>*</span></label>
+</td>
+<td>
+<input
+type="password"
+name="pd"
+id="pd"
+minlength="8"
+required
+pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+/>
+</td>
+</tr>
+<tr>
+<td>
+<label for="cpd">
+Confirm Password <span>*</span></label
+>
+</td>
+<td>
+<input
+type="password"
+name="cpd"
+id="cpd"
+minlength="8"
+required
+pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+/>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</td>
+</tr>
+</table>
+</form>
+</section>
+<hr>
+<footer>
+<table width="100%">
+<tr>
+<td>
+<h2> Contact Us</h2>
+<a href="mailto:example@esprit.tn">email: esprit@esprit.tn</a>
+</td>
+<td align="right">
+<address>NoWhere Street </address>
+</td>
+</tr>
+</table>
+</footer>
+</body>
+</html>
